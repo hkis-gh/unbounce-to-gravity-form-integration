@@ -8,11 +8,15 @@
     /* Drop the table from the database. */
     $wpdb->query( "DROP TABLE IF EXISTS $wp_u2gformdata" );
     
+    /* Delete the plugin version. */
+    delete_option( "u2g_plugin_version" );
+
     /* Delete the database version. */
     delete_option( "u2g_db_version" );
 
     /* Delete options which are stored in option table */
     delete_option( 'u2g_integration_options' );
+    delete_option( 'u2g_integration_redirect' );
 
     /* Remove menu WP back-end. */
     function u2g_integration_remove_options_page()
