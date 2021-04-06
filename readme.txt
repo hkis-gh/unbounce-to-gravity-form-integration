@@ -2,7 +2,7 @@
 Contributors: hkispl
 Tags: Unbounce Gravity Forms, Unbounce To Gravity Forms, Gravity Form, Unbounce
 Requires at least: 5.0
-Tested up to: 5.5.3
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 1.6
 License: GPLv2 or later
