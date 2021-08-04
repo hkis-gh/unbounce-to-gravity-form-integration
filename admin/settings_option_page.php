@@ -20,8 +20,8 @@ function u2g_integration_section_developers_cb($args) {
 /* 'u2g Integration' menu. */
 function u2g_integration_options_page() {
     add_menu_page(
-        'U2G Integration',
-        'U2G Integration',
+        'U2GF Integration',
+        'U2GF Integration',
         'manage_options',
         'u2g_integration',
         'u2g_integration_options_page_html',
@@ -52,6 +52,12 @@ function u2g_integration_options_page_html() {
             do_settings_sections('u2g_integration');
             ?>
         </form>
+        <div class="marketing-subscription-section">
+        <?php
+            echo subscription_design();
+            echo marketing_design();
+        ?>
+        </div>
     </div>
     <?php
 }

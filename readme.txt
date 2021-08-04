@@ -1,14 +1,14 @@
 === Unbounce Gravity Forms ===
 Contributors: hkispl
-Tags: Unbounce Gravity Forms, Unbounce To Gravity Forms, Gravity Form, Unbounce
+Tags: Unbounce Gravity Forms, Unbounce To Gravity Forms, Gravity Forms, Gravity Form, Unbounce, Gravity, Forms, Form
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-Unbounce To Gravity Form Integration, fetch leads from Unbounce landing pages to Gravity Forms.
+Unbounce To Gravity Forms Integration, fetch leads from Unbounce landing pages to Gravity Forms.
 
 == Description ==
 
@@ -18,7 +18,7 @@ Unbounce To Gravity Form Integration, fetch leads from Unbounce landing pages to
 
 * For more information please visit [Webhook Documentation](https://documentation.unbounce.com/hc/en-us/articles/203510044-Using-a-Webhook)
 
-* Please note that 'Gravity Form' plugin should be installed and activated first in order to use 'U2GF' plugin. You've to create then all corresponding Gravity Forms manually from your WP admin. Please make sure that the Gravity Form name must be matched with Unbounce Page name including ALL fields' name.
+* Please note that 'Gravity Forms' plugin should be installed and activated first in order to use 'U2GF' plugin. You've to create then all corresponding Gravity Forms manually from your WP admin. Please make sure that the Gravity Forms' name must be matched with Unbounce Page name including ALL fields' name.
 
 * Also please note that the page name will be reflected on plugin dashboard ONLY after very first lead is generated/posted successfully from your respective Unbounce Page. You can place one test entry/lead in order to reflect the page on plugin dashboard at first time.
 
@@ -34,6 +34,10 @@ Unbounce To Gravity Form Integration, fetch leads from Unbounce landing pages to
    Example of WebHook URL: http://{YOUR_DOMAIN_URL}/lead-unbounce-to-gravity/
 
 2. Manage the page status as Active/Inactive to Start/Stop fetching leads.
+
+= Plugin Documentation =
+
+* Please [click here](https://drive.google.com/file/d/1G6HsYha80xN4i58LYcvfexePRQM5Lzzr/view?usp=sharing) to download the plugin documentation.
 
 == Installation ==
 
@@ -64,6 +68,8 @@ For more information please visit [Webhook Documentation](https://documentation.
 5. Page Leads: Entries Vs Leads.
 
 == Changelog ==
+= 1.7 =
+* Add newsletter subscription & plugin documentation.
 = 1.6 =
 * Fix minor bugs.
 = 1.5 =

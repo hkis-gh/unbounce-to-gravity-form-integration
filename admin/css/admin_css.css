@@ -32,18 +32,125 @@
     background-color: #EEEEEE; color: #999999;
     text-align: right;
 }
-
 .onoffswitch-switch {
     display: block; width: 18px; margin: 9px;
     background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
     right: 60px;
     border: 1px solid #999999; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
+    transition: all 0.3s ease-in 0s;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
     margin-left: 0;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
+}
+
+.subscription-box {
+    width: 100%;
+    margin: auto auto 45px;
+    max-width: 767px;
+}
+
+.marketing_banner {
+    text-align: center;
+}
+
+.pro_url img {
+    width: 100%;
+    height: auto;
+    max-width: 767px;
+}
+
+.subscription-box form {
+    margin-bottom: 0px !important;
+    display: table;
+    width: 100%;
+    box-shadow: -9px 6px 15px 0px #00000061;
+}
+
+.subscription-box form .container {
+    padding: 5px 20px;
+    background-color: #2271b1;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.subscription-box form .container:nth-child(2) {
+    background-color: #ffffff !important;
+}
+
+.subscription-box form .container:last-child {
+    width: 120px;
+    position: relative;
+    padding: 5px 25px 5px 20px;
+}
+
+.subscription-box form .container:last-child:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.subscription-box h2, .subscription-box p {
+    color: #ffffff;
+}
+
+.subscription-box input[type=email], .subscription-box  input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.subscription-box input[type=checkbox] {
+    margin-top: 16px;
+}
+
+.subscription-box input[type=submit] {
+    background-color: #3fc4ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subscription-box input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 1280px) {
+    .subscription-box form .container:first-child {
+        width: 200px;
+    }
+
+    .subscription-box form .container:nth-child(2) {
+        width: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscription-box {
+        width: calc(100% - 30px);
+        padding: 15px;
+    }
+
+    .subscription-box form {
+        display: block;
+    }
+  
+    .subscription-box .container {
+	    display: block !important;
+        width: unset !important;
+    }
+
+    .subscription-box input[type=email], .subscription-box input[type=submit] {
+        display: block !important;
+    }
 }

@@ -4,9 +4,9 @@ defined( 'ABSPATH' ) OR exit;
 Plugin Name:  Unbounce Gravity Forms
 Plugin URI:   https://wordpress.org/plugins/hkinfosoft-unbounce-to-gravity-form-integration/
 Description:  Fetch leads from Unbounce landing pages to Gravity forms. U2GF Pro Version is also available.
-Version:      1.6
+Version:      1.7
 Author:       HK Infosoft
-Author URI:   https://hkinfosoft.com/
+Author URI:   https://www.hkinfosoft.com/
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 */
